@@ -1,0 +1,10 @@
+# STM32CubeIDE build output
+Debug/
+Release/
+
+# Eclipse/STM32CubeIDE generated metadata
+.settings/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
