@@ -36,12 +36,24 @@ The DC motor section is open-loop. No encoder or speed feedback is used.
 | -------------------------- | ------------------------- |
 | STM32F401CCU6              | Microcontroller           |
 | TB6612FNG                  | DC motor driver           |
-| Yellow DC gear motor       | Motor actuator            |
+| DC gear motor              | Motor actuator            |
 | SG90                       | Servo actuator            |
 | 10 kΩ potentiometer        | Motor speed command       |
 | CP2102                     | USB-to-UART interface     |
 | 25 MHz external oscillator | HSE clock source          |
 | ST-Link V2                 | Programming and debugging |
+
+# DC Gear Motor 
+| Parameter               | Value               |
+| ----------------------- | ------------------- |
+| Motor type              | DC gearmotor        |
+| Operating voltage range | 3–6 V               |
+| Project supply voltage  | 5 V                 |
+| Rated speed             | 125 RPM             |
+| Rated torque            | 0.8 kg·cm           |
+| Stall current           | 100 mA              |
+| Gearbox ratio           | 48:1                |
+| Gear material           | Plastic             |
 
 ### Power and Logic
 
