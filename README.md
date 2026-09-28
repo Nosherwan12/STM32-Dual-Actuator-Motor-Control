@@ -88,7 +88,6 @@ The application state machine is located in main.c, while motor, servo, and UART
 
 ### System Architecture Diagram
 
-Insert the project-specific system architecture diagram here.
 
 ### Firmware Structure
 
@@ -157,8 +156,6 @@ After the braking interval, the requested direction is applied and the motor ret
 This is a simple open-loop transition mechanism. There is no measurement of motor speed or rotor position.
 
 ### Direction Change Diagram
-
-Insert the project-specific braking and direction-change diagram here.
 
 ---
 
@@ -245,8 +242,6 @@ If an ADC operation fails while the motor is running, the firmware sets the PWM 
 The C command clears the fault and returns the system to MOTOR_IDLE.
 
 ### Motor State Diagram
-
-Insert the project-specific motor state diagram here.
 
 ---
 
